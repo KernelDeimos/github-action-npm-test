@@ -15,5 +15,8 @@
   "description": "",
   "dependencies": {
     "lru-cache": "^11.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
   }
 }
