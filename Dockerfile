@@ -55,8 +55,4 @@ USER node
 
 EXPOSE 4100
 
-# Attempt to fix `lru-cache@11.0.2` missing after build stage
-# by doing a redundant `npm install` at this stage
-RUN npm install
-
 CMD ["npm", "start"]
